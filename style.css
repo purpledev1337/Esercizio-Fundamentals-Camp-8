@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.grey {
+  color: grey;
+}
+
+.blue {
+  color: royalblue;
+}
+
+.plus {
+  font-size: 35px;
+  line-height: 10vh;
+}
+
+.album {
+  font-size: 40px;
+  /* line-height: 10vh; */
+}
+
+.album > .extend {
+  font-size: 20px;
+  float: right;
+}
+
+.container {
+  margin: auto;
+  width: 85vw;
+  position: relative;
+}
+
+.photobox {
+  padding-top: 25px;
+  width: calc(100% / 6 - 20px);
+  height: 250px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  float: left;
+}
+
+.photomini{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 75%;
+}
+
+.phototext{
+  margin-top: 15px;
+}
+
+.centerpos{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.p1{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/286/992/948/dubai-night-photo-taken-from-the-palm-island-jumeirah-united-arab-emirates-hd-desktop-wallpaper-for-your-computer-3840%C3%972400-wallpaper-preview.jpg");
+}
+
+.p2{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/806/205/136/london-4k-pic-wallpaper-preview.jpg");
+}
+
+.p3{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/556/199/617/new-york-city-night-city-wallpaper-preview.jpg");
+}
+
+.p4{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/956/607/809/nature-cool-background-1920x1080-wallpaper-preview.jpg");
+}
+
+.p5{
+  background-image: url("http://cdn10.overnature.net/5120/370-autunno.jpg");
+}
+
+.p6{
+  background-image: url("https://images5.alphacoders.com/870/870173.jpg");
+}
+
+.p7{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/834/587/809/hd-backgrounds-1080p-nature-1920x1080-wallpaper-preview.jpg");
+}
+
+.p8{
+  background-image: url("https://cdn.statically.io/img/i.pinimg.com/originals/7d/07/d7/7d07d75dfba10b5c1b89e3ed06f53066.jpg");
+}
+
+.p9{
+  background-image: url("https://www.softstore.it/wp-content/uploads/2020/12/vnHhC5m-scaled.jpeg");
+}
+
+.p10{
+  background-image: url("https://www.casaideadesign.it/wp-content/uploads/2013/03/Sfondi-natura-Nature-HD-Wallpapers-26.jpg");
+}
+
+.p11{
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/201/279/630/1080p-nature-hd-1920x1200-wallpaper-preview.jpg");
+}
+
+.p12{
+  background-image: url("https://www.architetturaecosostenibile.it/images/stories/2016/promuoviamo-paesaggio-italiano.jpg");
+}
